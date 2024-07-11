@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, Dimensions} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import NavigationBar from '../navigation/NavigationBar';
 import Button from '../components/Button';
 import script from '../assets/script.json'
+import ChatScreen from './ChatScreen';
+import QuizScreen from './QuizScreen';
 
 const LandingScreen = ({ navigation }) => {
   const [firstTime, setFirstTime] = useState(true);
@@ -73,7 +74,7 @@ const LandingScreen = ({ navigation }) => {
       backgroundColor: '#fff',
       alignItems: 'center',
       justifyContent: 'center',
-      paddingBottom: 160,
+      paddingBottom: 10,
     },
     header: {
       fontSize: 30,
@@ -85,11 +86,17 @@ const LandingScreen = ({ navigation }) => {
       fontSize: 20,
       textAlign: 'left',
       color: '#334E68',
-      marginBottom: 10,
+      marginBottom: 100,
     },
     journieText: {
       fontWeight: 'bold',
       fontStyle: 'italic',
+    },
+    tabBar: {
+      position: 'absolute',
+      bottom: 0,
+      left: 0,
+      right: 0,
     },
   });
 
