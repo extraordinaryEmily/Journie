@@ -61,7 +61,7 @@ const LandingScreen = ({ navigation }) => {
           fontSize={18}
           widthRatio={0.4}
           yPosition ={height * 0.625}
-          onPress={() => navigation.navigate('Chat')}
+          onPress={() => navigation.navigate('Home')}
         />
       </View>
     );

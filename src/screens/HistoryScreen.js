@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, Dimensions} from 'react-native';
 
-const QuizScreen = () => {
+const HistoryScreen = () => {
   return (
     <View>
-      <Text>This is the Quiz Screen</Text>
+      <Text>This is the History Screen</Text>
     </View>
   );
 };
 
-export default QuizScreen;
+export default HistoryScreen;
