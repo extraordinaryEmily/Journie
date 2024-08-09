@@ -79,13 +79,12 @@ const LandingScreen = ({ navigation }) => {
       fontSize: 30,
       fontWeight: 'bold',
       color: '#F5E260',
-      marginBottom: 5,
+      marginBottom: 10,
     },
     motivationalText: {
       fontSize: 20,
       textAlign: 'left',
       color: '#334E68',
-      marginBottom: 10,
     },
     journieText: {
       fontWeight: 'bold',

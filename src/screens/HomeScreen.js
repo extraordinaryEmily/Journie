@@ -1,10 +1,22 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, BackHandler} from 'react-native';
+import React, { useEffect } from 'react';
+import { useFocusEffect } from '@react-navigation/native';
 import ChatButton from '../components/ChatButton';
 import QuizButton from '../components/QuizButton';
 import SettingsButton from '../components/SettingsButton';
 import HistoryButton from '../components/HistoryButton';
 
 const HomeScreen = ({ navigation }) => {
+    useFocusEffect(
+      React.useCallback(() => {
+          const onBackPress = () => {
+              return true; 
+          };
+
+          BackHandler.addEventListener('hardwareBackPress', onBackPress);
+          return () => BackHandler.removeEventListener('hardwareBackPress', onBackPress);
+      }, []));
+
     console.log("Home Open");
     return (
       <View style={styles.container}>
