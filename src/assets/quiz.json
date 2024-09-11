@@ -1,0 +1,92 @@
+[
+    {
+        "question": "How are you feeling right now?",
+        "options": {
+            "a": "Stressed and overwhelmed",
+            "b": "Tired but okay",
+            "c": "Energetic and motivated",
+            "d": "Anxious and restless"
+        }
+    },
+    {
+        "question": "How much time do you have to dedicate to an activity?",
+        "options": {
+            "a": "A few minutes",
+            "b": "About an hour",
+            "c": "A couple of hours",
+            "d": "The whole day"
+        }
+    },
+    {
+        "question": "What environment do you prefer for relaxation?",
+        "options": {
+            "a": "Indoors with a calm setting",
+            "b": "Outdoors in nature",
+            "c": "A mix of both indoor and outdoor",
+            "d": "Anywhere I can be active"
+        }
+    },
+    {
+        "question": "What type of activity do you usually enjoy the most?",
+        "options": {
+            "a": "Quiet and reflective",
+            "b": "Physical and energetic",
+            "c": "Social and interactive",
+            "d": "Creative and engaging"
+        }
+    },
+    {
+        "question": "Do you prefer to be alone or with others during an activity?",
+        "options": {
+            "a": "Alone",
+            "b": "With a friend or family member",
+            "c": "In a group setting",
+            "d": "It doesn’t matter"
+        }
+    },
+    {
+        "question": "How does your current stress level affect you physically?",
+        "options": {
+            "a": "I feel tense and need to unwind",
+            "b": "I’m feeling drained and need to recharge",
+            "c": "I have excess energy that I need to use up",
+            "d": "I feel scattered and need to refocus"
+        }
+    },
+    {
+        "question": "What’s your preferred method for clearing your mind?",
+        "options": {
+            "a": "Quiet reflection",
+            "b": "Physical exercise",
+            "c": "Social interaction",
+            "d": "Creative expression"
+        }
+    },
+    {
+        "question": "How does the weather impact your mood?",
+        "options": {
+            "a": "I prefer calm, sunny days",
+            "b": "I enjoy crisp, cool weather",
+            "c": "I’m fine with any weather",
+            "d": "I’m drawn to rainy or cloudy days"
+        }
+    },
+    {
+        "question": "What’s your current mental state?",
+        "options": {
+            "a": "Overwhelmed and in need of peace",
+            "b": "Fatigued and needing restoration",
+            "c": "Excited and needing stimulation",
+            "d": "Distracted and needing focus"
+        }
+    },
+    {
+        "question": "How do you like to end your day?",
+        "options": {
+            "a": "With a relaxing activity",
+            "b": "By recharging with something soothing",
+            "c": "Engaging in something stimulating",
+            "d": "Reflecting or winding down in a productive way"
+        }
+    }
+]
